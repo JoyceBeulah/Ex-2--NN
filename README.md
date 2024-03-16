@@ -81,7 +81,7 @@ class Perceptron:
   def f(self, x: np.array) -> float:
   return np.dot(x, self._w) + self._b
 
-def predict(self, x: np.array):
+  def predict(self, x: np.array):
   return np.where(self.f(x) >= 0, 1, -1)
 ```
 ```python
@@ -146,7 +146,9 @@ plt.show()
 
 ![image](https://github.com/JoyceBeulah/Ex-2--NN/assets/118343698/6c8cf2c9-c560-416f-8a0d-2d742fefe686)
 
+![image](https://github.com/JoyceBeulah/Ex-2--NN/assets/118343698/5081be49-9557-4bea-bc00-d18aed19035e)
 
+![image](https://github.com/JoyceBeulah/Ex-2--NN/assets/118343698/f4112c59-4f91-4f80-a5d0-3da5867f3af7)
 
 # RESULT:
  Thus, a single layer perceptron model is implemented using python to classify Iris data set.
